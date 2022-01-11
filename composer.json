@@ -1,0 +1,22 @@
+{
+    "name": "jangl/loger",
+    "description": "loggerPro",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Logger\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yanholenko Oleksandr",
+            "email": "jangl@i.ua"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "psr/log": "3.x-dev",
+        "ext-mysqli": "*"
+    }
+}
